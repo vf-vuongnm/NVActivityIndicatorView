@@ -445,6 +445,9 @@ public final class NVActivityIndicatorView: UIView {
 
     /// Current status of animation, read-only.
     private(set) public var isAnimating: Bool = false
+    
+    /// line width.
+    public static var strokeWidth: CGFloat = 2
 
     /**
      Returns an object initialized from data in a given unarchiver.
